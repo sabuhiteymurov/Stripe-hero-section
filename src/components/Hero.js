@@ -18,10 +18,13 @@ const Hero = () => {
           </p>
 
           <button className='btn btn-hero-main'>
-            Start now <RiArrowRightSLine className='arrow-icon' />
+            Start now <RiArrowRightSLine className='btn-hero-main__icon' />
           </button>
 
-          <button className='btn btn-contact-sales'>Contact sales</button>
+          <button className='btn btn-contact-sales'>
+            Contact sales{' '}
+            <RiArrowRightSLine className='btn-contact-sales__icon' />
+          </button>
         </article>
         <article className='hero-images'>
           <img src={phoneImg} className='phone-img' alt='phone image' />
